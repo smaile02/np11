@@ -1,0 +1,135 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+section.blog{
+    margin-top:20px;
+}
+section.blog .article{
+    display: flex;
+    align-items: flex-start;
+}
+section.blog .article>img{
+    width:50%;
+}
+section.blog .article .content{
+    width:50%;
+    text-align: left;
+    padding-left:25px;
+    box-sizing: border-box;
+    position: relative;
+}
+section.blog .article .post-info img{
+    width:40px;
+    border-radius: 50%;
+}
+section.blog .article .category{
+    background: orange;
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 7px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+section.blog .article h1{
+    font-size:34px;
+    font-weight:500;
+    margin:15px 0;
+}
+section.blog .article .content>p{
+    font-size:19px;
+    line-height:1.5;
+    color: dimgray;
+    font-weight: 400;
+    margin-top: 10px;
+}
+section.blog .article h4{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+section.blog .article .fa-bolt{
+    display: inline-block;
+    font-size:20px;
+    float: right;
+    line-height:40px;
+    color: lightgrey;
+}
+section.blog .fa-clock{
+   color: lightgrey;
+    margin-left: 5px;
+}
+section.blog p{
+    display: inline-block;
+    font-size: 16px;
+    line-height:40px;
+    color: lightgrey;
+    margin-left: 5px;
+}
+section.blog .article .post-info .clock{
+    float: left;
+
+}
+section.blog .article .post-info .bolt{
+    float: right;
+}
+
+section.blog .post-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+section.blog .post-list .post{
+    margin-top:50px;
+    width:47%;
+    box-sizing: border-box;
+}
+section.blog .post-list img{
+    width: 35%;
+    float: left;
+}
+section.blog .post-list h4 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    width: 95%;
+}
+section.blog .post-list .box{
+    width: 60%;
+    float: right;
+    margin: auto;
+    text-align: left;
+}
+section.blog .post-list .fa-clock{
+    margin-top: 25px;
+    display: inline-block;
+}
+section.blog .post-list p{
+    display: inline-block;
+}
+section.blog .article .butt_return img{
+    width: 25px;
+    margin-left: 6px;
+}
+section.blog .article .butt_return{
+    border-bottom: 2px solid grey;
+    width: 40px;
+    position: absolute;
+    bottom: -50px;
+    left: 40px;
+
+}
